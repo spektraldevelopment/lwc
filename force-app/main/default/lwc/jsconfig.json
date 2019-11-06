@@ -1,0 +1,74 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "c/accountManagerLDS": [
+                "accountManagerLDS/accountManagerLDS.js"
+            ],
+            "c/bmi": [
+                "bmi/bmi.js"
+            ],
+            "c/bmiCalculator": [
+                "bmiCalculator/bmiCalculator.js"
+            ],
+            "c/conditionalRendering": [
+                "conditionalRendering/conditionalRendering.js"
+            ],
+            "c/firstLWC": [
+                "firstLWC/firstLWC.js"
+            ],
+            "c/helloWorld": [
+                "helloWorld/helloWorld.js"
+            ],
+            "c/lifeCycleDemo": [
+                "lifeCycleDemo/lifeCycleDemo.js"
+            ],
+            "c/meetingRoom": [
+                "meetingRoom/meetingRoom.js"
+            ],
+            "c/meetingRooms": [
+                "meetingRooms/meetingRooms.js"
+            ],
+            "c/publicMethodChild": [
+                "publicMethodChild/publicMethodChild.js"
+            ],
+            "c/publicMethodParent": [
+                "publicMethodParent/publicMethodParent.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/selectedMeetingRoom": [
+                "selectedMeetingRoom/selectedMeetingRoom.js"
+            ],
+            "c/simpleCalculator": [
+                "simpleCalculator/simpleCalculator.js"
+            ],
+            "c/accountManagerLDSForms": [
+                "accountManagerLDSForms/accountManagerLDSForms.js"
+            ],
+            "c/accountRecordForm": [
+                "accountRecordForm/accountRecordForm.js"
+            ],
+            "c/accountManagerApex": [
+                "accountManagerApex/accountManagerApex.js"
+            ],
+            "c/navigationExample": [
+                "navigationExample/navigationExample.js"
+            ],
+            "c/simpleLightBoxExample": [
+                "simpleLightBoxExample/simpleLightBoxExample.js"
+            ]
+        },
+        "experimentalDecorators": true
+    },
+    "include": [
+        "**/*",
+        "../../../../.sfdx/typings/lwc/**/*.d.ts"
+    ],
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ]
+    }
+}
