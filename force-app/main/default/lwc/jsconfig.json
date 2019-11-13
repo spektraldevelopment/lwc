@@ -2,14 +2,47 @@
     "compilerOptions": {
         "baseUrl": ".",
         "paths": {
+            "c/accountManagerApex": [
+                "accountManagerApex/accountManagerApex.js"
+            ],
             "c/accountManagerLDS": [
                 "accountManagerLDS/accountManagerLDS.js"
+            ],
+            "c/accountManagerLDSForms": [
+                "accountManagerLDSForms/accountManagerLDSForms.js"
+            ],
+            "c/accountRecordForm": [
+                "accountRecordForm/accountRecordForm.js"
+            ],
+            "c/addCarExperience": [
+                "addCarExperience/addCarExperience.js"
             ],
             "c/bmi": [
                 "bmi/bmi.js"
             ],
             "c/bmiCalculator": [
                 "bmiCalculator/bmiCalculator.js"
+            ],
+            "c/carDetail": [
+                "carDetail/carDetail.js"
+            ],
+            "c/carDetails": [
+                "carDetails/carDetails.js"
+            ],
+            "c/carExperiences": [
+                "carExperiences/carExperiences.js"
+            ],
+            "c/carSearch": [
+                "carSearch/carSearch.js"
+            ],
+            "c/carSearchForm": [
+                "carSearchForm/carSearchForm.js"
+            ],
+            "c/carSearchResult": [
+                "carSearchResult/carSearchResult.js"
+            ],
+            "c/carTile": [
+                "carTile/carTile.js"
             ],
             "c/conditionalRendering": [
                 "conditionalRendering/conditionalRendering.js"
@@ -29,6 +62,9 @@
             "c/meetingRooms": [
                 "meetingRooms/meetingRooms.js"
             ],
+            "c/navigationExample": [
+                "navigationExample/navigationExample.js"
+            ],
             "c/publicMethodChild": [
                 "publicMethodChild/publicMethodChild.js"
             ],
@@ -44,20 +80,11 @@
             "c/simpleCalculator": [
                 "simpleCalculator/simpleCalculator.js"
             ],
-            "c/accountManagerLDSForms": [
-                "accountManagerLDSForms/accountManagerLDSForms.js"
-            ],
-            "c/accountRecordForm": [
-                "accountRecordForm/accountRecordForm.js"
-            ],
-            "c/accountManagerApex": [
-                "accountManagerApex/accountManagerApex.js"
-            ],
-            "c/navigationExample": [
-                "navigationExample/navigationExample.js"
-            ],
             "c/simpleLightBoxExample": [
                 "simpleLightBoxExample/simpleLightBoxExample.js"
+            ],
+            "c/carLocation": [
+                "carLocation/carLocation.js"
             ]
         },
         "experimentalDecorators": true
